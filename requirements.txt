@@ -3,7 +3,6 @@ adafruit-circuitpython-bme280==2.6.10
 adafruit-circuitpython-busdevice==5.1.8
 adafruit-circuitpython-dht==3.7.1
 adafruit-circuitpython-typing==1.3.0
-Adafruit-GPIO==1.0.3
 Adafruit-PlatformDetect==3.21.0
 Adafruit-PureIO==1.1.9
 adafruit-python-shell==1.3.3
@@ -19,7 +18,6 @@ pyusb==1.2.1
 rpi-ws281x==4.3.3
 RPi.GPIO==0.7.1
 sniffio==1.2.0
-spidev==3.5
 starlette==0.17.1
 sysv-ipc==1.1.0
 tinydb==4.7.0
