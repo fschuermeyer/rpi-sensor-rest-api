@@ -11,6 +11,6 @@ class SensorDS18B20:
     def readTempreatur(self):
         if os.path.exists(self.slaveFile):
             with open(self.slaveFile,'r') as file:
-                return "{:.2f}".format(int((file.read().split('t=')[1]).strip()) / 1000)
+                return "{:.2f}".format(int((file.read().split('t=')[1])) / 1000)
         
         raise ValueError('No device is connected at the specified address. Sensor: DS18B20')
